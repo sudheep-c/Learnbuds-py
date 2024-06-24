@@ -26,7 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'userapp',
+    'accounts',
     'U_Auth', # app for authentication
     'ErrHandler', # app for error handling 
     'Core', # to handle functionalities
